@@ -27,7 +27,7 @@ def addCipher2(msg, key, mode='encrypt'):
         #key는 정수라 ord(char->int), 대문자로 통일 
         key = ord(key.upper()) - 65
     elif type(key) == int:
-        key = key % 6
+        key = key % 26
     else:
         print("키 부적절 ")
     
