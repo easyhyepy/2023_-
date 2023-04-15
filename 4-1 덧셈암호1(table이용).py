@@ -46,7 +46,7 @@ def addCipher(msg, key, mode='encrypt'):
     return result
                 
  
-#평문문   
+#평문  
 msg = "hello"
 #암호문 출력
 print (addCipher(msg, 'C', 'encrypt'))
